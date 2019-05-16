@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		402FFB86DC64344C1170B695 /* Pods_Progress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEBF4CA03240EE375B2A47A /* Pods_Progress.framework */; };
+		9BE91BCBD1C649E3708132CA /* Pods_Progress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDF738D3B1BF62DE1690414 /* Pods_Progress.framework */; };
 		D60BED292289D92F00F569D5 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BED282289D92F00F569D5 /* CategoryViewController.swift */; };
 		D6B0964B2284534000339732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0964A2284534000339732 /* AppDelegate.swift */; };
 		D6B0964D2284534000339732 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0964C2284534000339732 /* ProgressViewController.swift */; };
@@ -18,11 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7454E771F3EAB3C5B447C916 /* Pods-Progress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progress.debug.xcconfig"; path = "Target Support Files/Pods-Progress/Pods-Progress.debug.xcconfig"; sourceTree = "<group>"; };
-		80C911EB8E0E2A49DC1D885F /* Pods-Progress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progress.release.xcconfig"; path = "Target Support Files/Pods-Progress/Pods-Progress.release.xcconfig"; sourceTree = "<group>"; };
-		8DEBF4CA03240EE375B2A47A /* Pods_Progress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Progress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1396E691D9C2858AF2A3C628 /* Pods-Progress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progress.debug.xcconfig"; path = "Target Support Files/Pods-Progress/Pods-Progress.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDF738D3B1BF62DE1690414 /* Pods_Progress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Progress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6CC2A305248B1591285B8C /* Pods-Progress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Progress.release.xcconfig"; path = "Target Support Files/Pods-Progress/Pods-Progress.release.xcconfig"; sourceTree = "<group>"; };
 		D60BED282289D92F00F569D5 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		D6B096472284534000339732 /* Progress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Progress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B096472284534000339732 /* Progress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Progress.app; path = "/Users/sure/Desktop/IOS developer/Progress/build/Debug-iphoneos/Progress.app"; sourceTree = "<absolute>"; };
 		D6B0964A2284534000339732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B0964C2284534000339732 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		D6B0964F2284534000339732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,27 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402FFB86DC64344C1170B695 /* Pods_Progress.framework in Frameworks */,
+				9BE91BCBD1C649E3708132CA /* Pods_Progress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		91992CFB7730B5F36C59AC15 /* Pods */ = {
+		A757666D82CAFCC8C2D684AB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7454E771F3EAB3C5B447C916 /* Pods-Progress.debug.xcconfig */,
-				80C911EB8E0E2A49DC1D885F /* Pods-Progress.release.xcconfig */,
+				1396E691D9C2858AF2A3C628 /* Pods-Progress.debug.xcconfig */,
+				BC6CC2A305248B1591285B8C /* Pods-Progress.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		BFB6909642757DF41A0B10A6 /* Frameworks */ = {
+		B73BDDE2D9A8D1052751695A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8DEBF4CA03240EE375B2A47A /* Pods_Progress.framework */,
+				5FDF738D3B1BF62DE1690414 /* Pods_Progress.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -66,18 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				D6B096492284534000339732 /* Progress */,
-				D6B096482284534000339732 /* Products */,
-				91992CFB7730B5F36C59AC15 /* Pods */,
-				BFB6909642757DF41A0B10A6 /* Frameworks */,
+				A757666D82CAFCC8C2D684AB /* Pods */,
+				B73BDDE2D9A8D1052751695A /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		D6B096482284534000339732 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D6B096472284534000339732 /* Progress.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D6B096492284534000339732 /* Progress */ = {
@@ -173,7 +164,7 @@
 				Base,
 			);
 			mainGroup = D6B0963E2284534000339732;
-			productRefGroup = D6B096482284534000339732 /* Products */;
+			productRefGroup = D6B0963E2284534000339732;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -396,7 +387,7 @@
 		};
 		D6B0965A2284534100339732 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7454E771F3EAB3C5B447C916 /* Pods-Progress.debug.xcconfig */;
+			baseConfigurationReference = 1396E691D9C2858AF2A3C628 /* Pods-Progress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -415,7 +406,7 @@
 		};
 		D6B0965B2284534100339732 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80C911EB8E0E2A49DC1D885F /* Pods-Progress.release.xcconfig */;
+			baseConfigurationReference = BC6CC2A305248B1591285B8C /* Pods-Progress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
